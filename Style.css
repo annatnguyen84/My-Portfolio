@@ -1,0 +1,141 @@
+*{
+    color: white;
+}
+body{
+    width: 100vw;
+    background-color:#1b262c;
+}
+
+.languages img{
+    height: 100%;
+    width: auto;
+    margin-left: 5%;
+}
+.languages div{
+    height: 90px;
+    
+}
+.data img{
+    height: 60%;
+}
+.html img{
+    height: 100%;
+
+}
+.emp, .volunteer{
+    margin: 10px;
+    padding: 10px;
+    border-color: silver;
+    border:solid;
+    border-radius: 10px;
+    position: relative;
+}
+button{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+hr{
+    border-color: silver;
+}
+ul{
+    list-style-type: none;
+    padding-left: 18px;
+}
+h5{
+    text-decoration: underline;
+}
+.contacts img{
+    width: 10%;
+}
+.projects{
+    width: 60%;
+}
+.weDiveLogo{
+    width: 30%;
+    position: relative;
+}
+#bubbles{
+    position: absolute;
+    bottom: 30px;
+    right: -25%;
+    width: 35%;
+    padding: 0;
+}
+#mask img {
+    width: 100%;
+}
+#xs{
+    width: 100%;
+    animation-name: xs;
+    animation-duration: 10s ;  
+    animation-iteration-count: infinite;
+    
+}
+#s{
+    width: 100%;
+    animation-name: s;
+    animation-fill-mode: forwards;
+    animation-duration: 4s ;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+}
+#m{
+    width: 100%;
+    animation-name: m;
+    animation-fill-mode: forwards;
+    animation-duration: 4s ;
+    animation-delay: 1.5s;
+    animation-iteration-count: infinite;
+}
+@keyframes xs {
+    0% {
+        opacity: 1;
+    }
+    25% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    75% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes s {
+    0% {
+        opacity: 1;
+    }
+    25% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    75% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes m {
+    0% {
+        opacity: 1;
+    }
+    25% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    75% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
