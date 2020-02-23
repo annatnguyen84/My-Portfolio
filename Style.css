@@ -5,7 +5,9 @@ body{
     width: 100vw;
     background-color:#1b262c;
 }
-
+section, footer{
+    padding: 15px;
+}
 .languages img{
     height: 100%;
     width: auto;
@@ -61,6 +63,9 @@ h5{
 .projects{
     height: 120px;
     
+}
+.hr {
+    border-top: 1px solid gre;
 }
 .weDiveLogo{
     width: 50%;
