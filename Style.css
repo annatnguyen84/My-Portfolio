@@ -18,7 +18,7 @@ section, footer{
     
 }
 .data img{
-    height: 95%;
+    height: 90%;
 }
 .html img{
     height: 100%;
@@ -53,8 +53,12 @@ h5{
 .contacts a{
     padding: 10px;
 }
+.projects{
+    padding: 5px 0 5px 0;
+    
+}
 .blur{
-    margin: 10px;
+    
     padding: 10px;
     border-color: silver;
     border:solid;
